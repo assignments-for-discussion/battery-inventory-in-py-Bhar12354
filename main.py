@@ -15,5 +15,5 @@ def count_batteries_by_usage(cycles):
         assert(counts["lowCount"] == 2)
         assert(counts["mediumCount"] == 3) assert(counts["highCount"] == 1) 
         print("Done counting :)")
-        if __name__ == '__main__':
+        if __name__ == '__main__': 
           test_bucketing_by_number_of_cycles()
